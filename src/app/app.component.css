@@ -1,5 +1,4 @@
 div {
-	border: 1px solid black;
 }
 .headerLogo {
 	max-height: 50px;
@@ -14,7 +13,6 @@ div {
 .bigLogo {
 	display: grid;
 	max-height: 650px;
-	padding: 1.5em;
 }
 
 .logoText, .logoTop {
