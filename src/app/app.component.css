@@ -1,32 +1,256 @@
-div {
-}
-.headerLogo {
-	max-height: 50px;
-	padding: 5px;
-}
 
-.content {
-	display: grid;
-	grid-template-rows: auto auto auto auto;
-}
 
-.bigLogo {
-	display: grid;
-	max-height: 650px;
-}
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
 
-.logoText, .logoTop {
-	display: grid;
-	font-weight: 800;
-	font-size: 72px;
-	margin: 1pt;
-	padding: 3pt;
-	justify-items: center;
-	align-items: center;
-}
+@media (min-width: 1281px) {
+  
+	div {
+	}
+	.headerLogo {
+		max-height: 50px;
+		padding: 5px;
+	}
+	
+	.content {
+		display: grid;
+		grid-template-rows: auto auto auto auto;
+	}
+	
+	.bigLogo {
+		display: grid;
+		max-height: 650px;
+	}
+	
+	.logoText, .logoTop {
+		display: grid;
+		font-weight: 800;
+		font-size: 72px;
+		margin: 1pt;
+		padding: 3pt;
+		justify-items: center;
+		align-items: center;
+	}
+	
+	.logoTagline {
+		display: grid;
+		justify-items: center;
+		padding-top: .5em;
+	}
+	
+  }
+  
+  /* 
+	##Device = Laptops, Desktops
+	##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+	
+	div {
+	}
+	.headerLogo {
+		max-height: 50px;
+		padding: 5px;
+	}
+	
+	.content {
+		display: grid;
+		grid-template-rows: auto auto auto auto;
+	}
+	
+	.bigLogo {
+		display: grid;
+		max-height: 650px;
+	}
+	
+	.logoText, .logoTop {
+		display: grid;
+		font-weight: 800;
+		font-size: 72px;
+		margin: 1pt;
+		padding: 3pt;
+		justify-items: center;
+		align-items: center;
+	}
+	
+	.logoTagline {
+		display: grid;
+		justify-items: center;
+		padding-top: .5em;
+	}
+	
+  }
+  
+  /* 
+	##Device = Tablets, Ipads (portrait)
+	##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+	
+	div {
+	}
+	.headerLogo {
+		max-height: 50px;
+		padding: 5px;
+	}
+	
+	.content {
+		display: grid;
+		grid-template-rows: auto auto auto auto;
+	}
+	
+	.bigLogo {
+		display: grid;
+		max-height: 650px;
+	}
+	
+	.logoText, .logoTop {
+		display: grid;
+		font-weight: 800;
+		font-size: 72px;
+		margin: 1pt;
+		padding: 3pt;
+		justify-items: center;
+		align-items: center;
+	}
+	
+	.logoTagline {
+		display: grid;
+		justify-items: center;
+		padding-top: .5em;
+	}
+	
+  }
+  
+  /* 
+	##Device = Tablets, Ipads (landscape)
+	##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	
+	div {
+	}
+	.headerLogo {
+		max-height: 50px;
+		padding: 5px;
+	}
+	
+	.content {
+		display: grid;
+		grid-template-rows: auto auto auto auto;
+	}
+	
+	.bigLogo {
+		display: grid;
+		max-height: 650px;
+	}
+	
+	.logoText, .logoTop {
+		display: grid;
+		font-weight: 800;
+		font-size: 72px;
+		margin: 1pt;
+		padding: 3pt;
+		justify-items: center;
+		align-items: center;
+	}
+	
+	.logoTagline {
+		display: grid;
+		justify-items: center;
+		padding-top: .5em;
+	}
+	
+  }
+  
+  /* 
+	##Device = Low Resolution Tablets, Mobiles (Landscape)
+	##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+	
+	div {
+	}
 
-.logoTagline {
-	display: grid;
-	justify-items: center;
-	padding-top: .5em;
-}
+	.headerLogo {
+		max-height: 50px;
+		padding: 5px;
+	}
+	
+	.content {
+		display: grid;
+		grid-template-rows: auto auto auto auto;
+	}
+	
+	.bigLogo {
+		display: grid;
+		max-height: 650px;
+	}
+	
+	.logoText, .logoTop {
+		display: grid;
+		font-weight: 800;
+		font-size: 40px;
+		margin: 1pt;
+		padding: 3pt;
+		justify-items: center;
+		align-items: center;
+	}
+	
+	.logoTagline {
+		display: grid;
+		justify-items: center;
+		padding-top: .5em;
+	}
+	
+  }
+  
+  /* 
+	##Device = Most of the Smartphones Mobiles (Portrait)
+	##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+	
+	div {
+	}
+
+	.headerLogo {
+		max-height: 50px;
+		padding: 5px;
+	}
+	
+	.content {
+		display: grid;
+		grid-template-rows: auto auto auto auto;
+	}
+	
+	.bigLogo {
+		display: grid;
+		max-height: 650px;
+	}
+	
+	.logoText, .logoTop {
+		display: grid;
+		font-weight: 800;
+		font-size: 30px;
+		margin: 1pt;
+		padding: 3pt;
+		justify-items: center;
+		align-items: center;
+	}
+	
+	.logoTagline {
+		display: grid;
+		justify-items: center;
+		padding-top: .5em;
+	}
+
+	
+  }
